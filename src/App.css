@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App {
+  text-align: center;
+}
+.trip_form {
+  font-size: 20px;
+}
+.trip_form div {
+  height: 54px;
+  margin-left: 10px;
+}
+.trip_form select {
+  height: 30px;
+  margin-left: 10px;
+}
+.card h1 {
+  margin-bottom: 10px;
+}
+
+.trip_form button {
+  height: 30px;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: orange;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 8px;
+}
+
+.filetr_sort_container {
+  width: 60%;
+  background-color: burlywood;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.filetr_sort_container input {
+  height: 54px;
+  margin-left: 10px;
+}
+.card div {
+  width: 20%;
+  border: 1px solid black;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 8px;
+  background-color: beige;
+  border-radius: 4px;
+}
+
+.form_card_container {
+  width: 80%;
+  border: 1px solid none;
+  margin: 0 auto;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.form_Container {
+  width: 60%;
+  background-color: burlywood;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.nav {
+  width: 100%;
+  background-color: orange;
+  height: 50px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
